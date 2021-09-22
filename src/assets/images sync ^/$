@@ -1,0 +1,85 @@
+var map = {
+	"./Group 1.svg": "ebad",
+	"./Group 2.svg": "1fea",
+	"./bg-login-page-dark.svg": "c5ac",
+	"./bg-login-page.svg": "b946",
+	"./error-illustration.svg": "9487",
+	"./food-beverage-1.jpg": "8066",
+	"./food-beverage-10.jpg": "b1c5",
+	"./food-beverage-11.jpg": "526f",
+	"./food-beverage-12.jpg": "9d0b",
+	"./food-beverage-13.jpg": "2116",
+	"./food-beverage-14.jpg": "e42d",
+	"./food-beverage-15.jpg": "920c",
+	"./food-beverage-16.jpg": "4b68",
+	"./food-beverage-17.jpg": "2279",
+	"./food-beverage-18.jpg": "71b4",
+	"./food-beverage-19.jpg": "3708",
+	"./food-beverage-2.jpg": "dfc9",
+	"./food-beverage-3.jpg": "f005",
+	"./food-beverage-4.jpg": "83f8",
+	"./food-beverage-5.jpg": "aa10",
+	"./food-beverage-6.jpg": "f8a9",
+	"./food-beverage-7.jpg": "58ad",
+	"./food-beverage-8.jpg": "d32c",
+	"./food-beverage-9.jpg": "4c7c",
+	"./illustration.svg": "643f",
+	"./illustration2.svg": "f2ab",
+	"./logo.svg": "e347",
+	"./map-marker-region.png": "1976",
+	"./map-marker.png": "4fad0",
+	"./phone-illustration.svg": "4664",
+	"./placeholders/200x200.jpg": "f866",
+	"./placeholders/800x800.jpg": "f46d",
+	"./preview-1.jpg": "fed3",
+	"./preview-10.jpg": "cf2e",
+	"./preview-11.jpg": "7531",
+	"./preview-12.jpg": "c832",
+	"./preview-13.jpg": "88d3",
+	"./preview-14.jpg": "499f",
+	"./preview-15.jpg": "3bac",
+	"./preview-2.jpg": "d1e8",
+	"./preview-3.jpg": "2bee",
+	"./preview-4.jpg": "a3f7",
+	"./preview-5.jpg": "0c34",
+	"./preview-6.jpg": "b30e",
+	"./preview-7.jpg": "56b1",
+	"./preview-8.jpg": "dfad",
+	"./preview-9.jpg": "7b28",
+	"./profile-1.jpg": "317b",
+	"./profile-10.jpg": "99b3",
+	"./profile-11.jpg": "6874",
+	"./profile-12.jpg": "d662",
+	"./profile-13.jpg": "c084",
+	"./profile-14.jpg": "2208",
+	"./profile-15.jpg": "dd46",
+	"./profile-2.jpg": "fa45",
+	"./profile-3.jpg": "8b0b",
+	"./profile-4.jpg": "6a4f",
+	"./profile-5.jpg": "df2f",
+	"./profile-6.jpg": "e50c",
+	"./profile-7.jpg": "28a7",
+	"./profile-8.jpg": "8da4",
+	"./profile-9.jpg": "535e",
+	"./woman-illustration.svg": "5234"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "7584";
